@@ -28,11 +28,7 @@ with c2:
     with c31:
         st.caption("")
         st.title("Tapas")
-    with c32:
-        st.image(
-            "images/logo.png",
-            width=200,
-        )
+
 
 uploaded_file = st.file_uploader(
     " ",
