@@ -27,8 +27,12 @@ with c2:
     c31, c32 = st.columns([12, 2])
     with c31:
         st.caption("")
-        st.title("Tapas")
-
+        st.title("General Analytics")
+    with c32:
+        st.image(
+            "images/logo.png",
+            width=200,
+        )
 
 uploaded_file = st.file_uploader(
     " ",
